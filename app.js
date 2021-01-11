@@ -76,4 +76,4 @@ app.get("/tracks/:id", (req, res) => {
     .catch((err) => console.log("error", err));
 });
 
-app.listen(3000, () => console.log("My Spotify project running on port 3000"));
+app.listen(process.env.PORT, () => console.log("My Spotify project running on port "));
